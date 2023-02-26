@@ -1,0 +1,27 @@
+{
+  "fields": [
+    {
+      "name": "station",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "date",
+      "type": "date",
+      "format": "default"
+    },
+    {
+      "name": "prcp",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "tobs",
+      "type": "number",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

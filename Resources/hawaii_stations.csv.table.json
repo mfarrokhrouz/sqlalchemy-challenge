@@ -1,0 +1,58 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 51
+    },
+    {
+      "field": "station",
+      "title": "station",
+      "width": 98,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "alphanum",
+      "headerSort": true
+    },
+    {
+      "field": "name",
+      "title": "name",
+      "width": 297,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "latitude",
+      "title": "latitude",
+      "width": 103,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "longitude",
+      "title": "longitude",
+      "width": 116,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "elevation",
+      "title": "elevation",
+      "width": 483,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    }
+  ]
+}

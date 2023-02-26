@@ -1,0 +1,55 @@
+{
+  "columns": [
+    {
+      "width": 51,
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false
+    },
+    {
+      "field": "station",
+      "title": "station",
+      "width": 98,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "date",
+      "title": "date",
+      "width": 84,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "prcp",
+      "title": "prcp",
+      "width": 84,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "tobs",
+      "title": "tobs",
+      "width": 821,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    }
+  ],
+  "sort": [
+    {
+      "column": "station",
+      "dir": "asc"
+    }
+  ]
+}

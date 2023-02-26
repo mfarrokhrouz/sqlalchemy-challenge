@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "name": "station",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "latitude",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "longitude",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "elevation",
+      "type": "number",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
